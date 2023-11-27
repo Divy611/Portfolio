@@ -1,0 +1,52 @@
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    animation: scroll 10s linear infinite;
+    width: calc(230vw + 300px);
+}
+
+.slider-item {
+    width: 230vw;
+    height: 200px;
+    margin-right: 20px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(5%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.slider {
+    display: flex;
+    animation: scroll 50s linear infinite;
+    width: calc(230vw + 300px);
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.slider-item {
+    width: 100%;
+    height: 40vw;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.05);
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+}
