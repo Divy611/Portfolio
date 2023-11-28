@@ -9,7 +9,7 @@ function Contact() {
                     <div className="flex flex-col text-center w-full mb-12">
                         <h1 className="sm:text-2xl lg:text-4xl text-3xl font-medium title-font mb-4 text-white">Contact Me</h1>
                         <div className="container px-48 py-8 mx-auto">
-                            <div className="grid gap-20 mt-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
+                            <div className="grid gap-20 mt-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 items-center justify-center">
                                 <motion.a initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.35 }} href='mailto: divy.parikh@hotmail.com'>
                                     <div className="p-4 rounded-lg md:p-6 bg-opacity-0">
                                         <i className="fa-regular fa-envelope-open lg:text-5xl text-white"></i>

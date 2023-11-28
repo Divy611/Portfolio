@@ -5,7 +5,7 @@ import { motion, useScroll, useTransform } from 'framer-motion'
 
 function Main() {
     let { scrollYProgress } = useScroll();
-    let y = useTransform(scrollYProgress, [0, 1], ["0%", "145%"]);
+    let y = useTransform(scrollYProgress, [0, 1], ["0%", "150%"]);
     return (
         <>
             <motion.div className="container px-12 py-28 mx-auto" style={{ y }}>
@@ -38,7 +38,7 @@ function ButtonRow() {
     return (
         <>
             <div class="icons" style={{ paddingTop: "50px" }}>
-                <a href="https://github.com/Divy611">
+                <motion.a initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.35 }} href="https://github.com/Divy611">
                     <div class="layer">
                         <span></span>
                         <span></span>
@@ -46,11 +46,9 @@ function ButtonRow() {
                         <span></span>
                         <span class="fab fa-github"></span>
                     </div>
-                    <div class="text">
-                        GitHub
-                    </div>
-                </a>
-                <a href="https://www.linkedin.com/in/divyparikh611/">
+                    <div class="text">GitHub</div>
+                </motion.a>
+                <motion.a initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.35, delay: 0.25 }} href="https://www.linkedin.com/in/divyparikh611/">
                     <div class="layer">
                         <span></span>
                         <span></span>
@@ -58,11 +56,9 @@ function ButtonRow() {
                         <span></span>
                         <span class="fab fa-linkedin-in"></span>
                     </div>
-                    <div class="text">
-                        LinkedIn
-                    </div>
-                </a>
-                <a href="https://www.instagram.com/divy_parikh/">
+                    <div class="text">LinkedIn</div>
+                </motion.a>
+                <motion.a initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.35, delay: 0.45 }} href="https://www.instagram.com/divy_parikh/">
                     <div class="layer">
                         <span></span>
                         <span></span>
@@ -70,10 +66,8 @@ function ButtonRow() {
                         <span></span>
                         <span class="fab fa-instagram"></span>
                     </div>
-                    <div class="text">
-                        Instagram
-                    </div>
-                </a>
+                    <div class="text">Instagram</div>
+                </motion.a>
             </div>
         </>
     )
