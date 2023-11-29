@@ -1,6 +1,6 @@
 import React from 'react'
 import "../Experience/experience.css"
-import Image from "../assets/Polibuzz logo.png"
+import Image from "../assets/logo.jpg"
 import Image1 from "../assets/3pillarglobal.png"
 import Image2 from "../assets/knotters.png"
 import { motion, useScroll, useTransform } from 'framer-motion'
