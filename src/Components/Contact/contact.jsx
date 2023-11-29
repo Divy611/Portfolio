@@ -1,7 +1,29 @@
-import React from 'react'
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser'
 import { motion } from 'framer-motion'
 
 function Contact() {
+    const [formData, setFormData] = useState({
+        name: '',
+        user_email: '',
+        message: ''
+    });
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+        emailjs.sendForm('service_7wnt82i', 'template_02np6ua', form.current, 'eZjZAcUFmv1oum3v0')
+            .then((result) => {
+                console.log(result.text);
+                setFormData({ name: '', user_email: '', message: '' });
+                setIsSubmitted(true);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+    const [isSubmitted, setIsSubmitted] = useState(false);
+    const handleClosePopup = () => {
+        setIsSubmitted(false);
+    };
     return (
         <>
             <section className="body-font relative">
@@ -39,7 +61,7 @@ function Contact() {
                             <div className="p-2 w-1/2">
                                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.35 }} className="relative">
                                     <label for="name" className="leading-7 text-sm text-gray-200">Name</label>
-                                    <input type="text" id="name" name="name" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                                    <input value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} type="text" id="name" name="name" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                                 </motion.div>
                             </div>
                             <div className="p-2 w-1/2">

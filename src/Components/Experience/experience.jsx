@@ -31,7 +31,7 @@ export default function Experience() {
                         </div>
                         <div className="content flex justify-start md:justify-end" style={{ paddingInline: "30px" }}>
                             <div className='text-white'>
-                                <motion.h1 initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.45 }} className='font-semibold text-5xl' style={{ fontFamily: "Poppins" }}>Co-Founder</motion.h1>
+                                <motion.h1 initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.45 }} className='font-semibold text-5xl' style={{ fontFamily: "Poppins" }}>Co-Founder,CTO</motion.h1>
                                 <div className='flex justify-between w-full mt-1'>
                                     <motion.h2 initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.25 }} className='text-2xl' style={{ fontFamily: "Poppins", fontWeight: "500" }}>Polibuzz</motion.h2>
                                     <motion.h2 initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.45 }} className='text-xl' style={{ fontFamily: "Poppins", fontWeight: "500", paddingRight: "50px" }}>Feb 2023 - Present</motion.h2>
