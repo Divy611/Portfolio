@@ -27,30 +27,23 @@ function scrollToSection(sectionId) {
 function App() {
   return (
     <>
-      <div className="topnav" id="myTopnav" style={{ paddingLeft: "5px" }}>
-        {/*eslint-disable-next-line*/}
+      <div className="topnav" id="myTopnav" style={{ paddingLeft: "5px", zIndex: "100" }}>
         <a className="active text-4xl font-semibold" style={{ fontSize: "x-large", fontFamily: "Poppins" }}>
           <button onClick={() => scrollToSection('main')} style={{ fontFamily: "Poppins" }}>Divy Parikh</button>
         </a>
-        {/*eslint-disable-next-line*/}
         <a className='text-3xl lg:text-4xl' style={{ fontFamily: "Poppins" }}>
           <button onClick={() => scrollToSection('about')} style={{ fontFamily: "Poppins" }}>About</button>
         </a>
-        {/*eslint-disable-next-line*/}
         <a className='text-3xl lg:text-4xl' style={{ fontFamily: "Poppins" }}>
           <button onClick={() => scrollToSection('skills')} style={{ fontFamily: "Poppins" }}>Skills</button>
         </a>
-        {/*eslint-disable-next-line*/}
         <a className='text-3xl lg:text-4xl' style={{ fontFamily: "Poppins" }}>
           <button onClick={() => scrollToSection('projects')} style={{ fontFamily: "Poppins" }}>Projects</button>
         </a>
-        {/*eslint-disable-next-line*/}
         <a className='text-3xl lg:text-4xl' style={{ fontFamily: "Poppins" }}>
           <button onClick={() => scrollToSection('experience')} style={{ fontFamily: "Poppins" }}>Experience</button>
         </a>
-        {/*eslint-disable-next-line*/}
         <a href="javascript:void(0);" className="icon" onClick={openHeader}>&#9776;</a>
-        {/*eslint-disable-next-line*/}
         <a className='text-3xl lg:text-4xl' style={{ fontFamily: "Poppins" }}>
           <button onClick={() => scrollToSection('contact')} style={{ fontFamily: "Poppins" }}>Contact</button>
         </a>

@@ -10,23 +10,23 @@ function Contact() {
                         <h1 className="sm:text-2xl lg:text-4xl text-3xl font-medium title-font mb-4 text-white">Contact Me</h1>
                         <div className="container px-48 py-8 mx-auto">
                             <div className="grid gap-20 mt-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 items-center justify-center">
-                                <motion.a initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.35 }} href='mailto: divy.parikh@hotmail.com'>
+                                <motion.a className='shadow-lg rounded-lg' initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.35 }} href='mailto: divy.parikh@hotmail.com'>
                                     <div className="p-4 rounded-lg md:p-6 bg-opacity-0">
                                         <i className="fa-regular fa-envelope-open lg:text-5xl text-white"></i>
                                         <h2 className="mt-4 text-base font-medium text-white">Email</h2>
                                         <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">divy.parikh@hotmail.com</p>
                                     </div>
                                 </motion.a>
-                                <motion.a initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.35, delay: 0.1 }} href="https://github.com/Divy611">
+                                <motion.a className='shadow-lg rounded-lg' initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.35, delay: 0.1 }} href="https://github.com/Divy611">
                                     <div className="p-4 rounded-lg md:p-6 bg-opacity-0">
                                         <i className="fa-brands fa-github lg:text-5xl text-white"></i>
                                         <h2 className="mt-4 text-base font-medium text-white">GitHub</h2>
                                         <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">Divy611</p>
                                     </div>
                                 </motion.a>
-                                <motion.a initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.35, delay: 0.25 }} href="https://www.linkedin.com/in/divyparikh611/">
+                                <motion.a className='shadow-lg rounded-lg' initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.35, delay: 0.25 }} href="https://www.linkedin.com/in/divyparikh611/">
                                     <div className="p-4 rounded-lg md:p-6 bg-opacity-0">
-                                        <i class="fa-brands fa-linkedin-in lg:text-5xl text-white"></i>
+                                        <i className="fa-brands fa-linkedin-in lg:text-5xl text-white"></i>
                                         <h2 className="mt-4 text-base font-medium text-white">LinkedIn</h2>
                                         <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">Divy Parikh</p>
                                     </div>

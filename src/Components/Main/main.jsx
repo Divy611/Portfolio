@@ -37,36 +37,36 @@ function Main() {
 function ButtonRow() {
     return (
         <>
-            <div class="icons" style={{ paddingTop: "50px" }}>
+            <div className="icons" style={{ paddingTop: "50px" }}>
                 <motion.a initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.35 }} href="https://github.com/Divy611">
-                    <div class="layer">
+                    <div className="layer">
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
-                        <span class="fab fa-github"></span>
+                        <span className="fab fa-github"></span>
                     </div>
-                    <div class="text">GitHub</div>
+                    <div className="text">GitHub</div>
                 </motion.a>
                 <motion.a initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.35, delay: 0.25 }} href="https://www.linkedin.com/in/divyparikh611/">
-                    <div class="layer">
+                    <div className="layer">
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
-                        <span class="fab fa-linkedin-in"></span>
+                        <span className="fab fa-linkedin-in"></span>
                     </div>
-                    <div class="text">LinkedIn</div>
+                    <div className="text">LinkedIn</div>
                 </motion.a>
                 <motion.a initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.35, delay: 0.45 }} href="https://www.instagram.com/divy_parikh/">
-                    <div class="layer">
+                    <div className="layer">
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
-                        <span class="fab fa-instagram"></span>
+                        <span className="fab fa-instagram"></span>
                     </div>
-                    <div class="text">Instagram</div>
+                    <div className="text">Instagram</div>
                 </motion.a>
             </div>
         </>
