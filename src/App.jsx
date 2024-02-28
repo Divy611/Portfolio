@@ -1,12 +1,14 @@
-import React from 'react';
 import "./App.css";
+import React from 'react';
+import { motion } from "framer-motion";
 import Main from './Components/Main/main';
-import Footer from './Components/Footer/footer';
 import About from './Components/About/about';
-import Contact from './Components/Contact/contact';
+import Footer from './Components/Footer/footer';
 import Skills from './Components/Skills/skills';
+import Contact from './Components/Contact/contact';
 import Projects from './Components/Projects/projects';
 import Experience from './Components/Experience/experience';
+import ScrollButton from "./Components/ScrolltoTop/scrollToTop";
 
 function openHeader() {
   var x = document.getElementById("myTopnav");
@@ -66,6 +68,7 @@ function App() {
       <div id="contact">
         <Contact />
       </div>
+      <ScrollButton />
       <Footer />
     </ >
   );
