@@ -1,8 +1,4 @@
-/* body {
-  box-sizing: content-box;
-} */
-
-.menu {
+/* .menu {
   position: fixed;
   height: 100vh;
   background: #2196F3;
@@ -69,7 +65,7 @@ p {
 
 h1 {
   color: #bbb;
-}
+} */
 
 .topnav {
   background-color: transparent;
@@ -194,4 +190,12 @@ h1 {
 
 ::-webkit-scrollbar-thumb {
   display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+  .experiencebutton,
+  .scrollToTopButton {
+    display: none;
+  }
 }

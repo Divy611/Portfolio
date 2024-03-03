@@ -1,6 +1,6 @@
 import "./App.css";
 import React from 'react';
-import { motion } from "framer-motion";
+//import { motion } from "framer-motion";
 import Main from './Components/Main/main';
 import About from './Components/About/about';
 import Footer from './Components/Footer/footer';
@@ -29,49 +29,7 @@ function scrollToSection(sectionId) {
 function App() {
   return (
     <>
-      <div class="menu">
-        <nav>
-          <ul>
-            <li>
-              <a className="active text-4xl font-semibold" style={{ fontFamily: "Poppins" }}>
-                <button onClick={() => scrollToSection('main')} style={{ fontFamily: "Poppins" }}>Divy Parikh</button>
-              </a>
-            </li>
-            <br />
-            <li>
-              <a className='text-xl lg:text-2xl' style={{ fontFamily: "Poppins" }}>
-                <button onClick={() => scrollToSection('about')} style={{ fontFamily: "Poppins" }}>About</button>
-              </a>
-            </li>
-            <br />
-            <li>
-              <a className='text-xl lg:text-2xl' style={{ fontFamily: "Poppins" }}>
-                <button onClick={() => scrollToSection('skills')} style={{ fontFamily: "Poppins" }}>Skills</button>
-              </a>
-            </li>
-            <br />
-            <li>
-              <a className='text-xl lg:text-2xl' style={{ fontFamily: "Poppins" }}>
-                <button onClick={() => scrollToSection('projects')} style={{ fontFamily: "Poppins" }}>Projects</button>
-              </a>
-            </li>
-            <br />
-            <li>
-              <a className='text-xl lg:text-2xl' style={{ fontFamily: "Poppins" }}>
-                <button onClick={() => scrollToSection('experience')} style={{ fontFamily: "Poppins" }}>Experience</button>
-              </a>
-            </li>
-            <br />
-            {/* <a href="javascript:void(0);" className="icon" onClick={openHeader}>&#9776;</a> */}
-            <li>
-              <a className='text-xl lg:text-2xl' style={{ fontFamily: "Poppins" }}>
-                <button onClick={() => scrollToSection('contact')} style={{ fontFamily: "Poppins" }}>Contact</button>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      {/*<div className="topnav" id="myTopnav" style={{ paddingLeft: "5px", zIndex: "100" }}>
+      <div className="topnav" id="myTopnav" style={{ paddingLeft: "5px", zIndex: "100" }}>
         <a className="active text-4xl font-semibold" style={{ fontSize: "x-large", fontFamily: "Poppins" }}>
           <button onClick={() => scrollToSection('main')} style={{ fontFamily: "Poppins" }}>Divy Parikh</button>
         </a>
@@ -84,14 +42,16 @@ function App() {
         <a className='text-3xl lg:text-4xl' style={{ fontFamily: "Poppins" }}>
           <button onClick={() => scrollToSection('projects')} style={{ fontFamily: "Poppins" }}>Projects</button>
         </a>
-        <a className='text-3xl lg:text-4xl' style={{ fontFamily: "Poppins" }}>
-          <button onClick={() => scrollToSection('experience')} style={{ fontFamily: "Poppins" }}>Experience</button>
-        </a>
+        <div className="experiencebutton">
+          <a className='text-3xl lg:text-4xl' style={{ fontFamily: "Poppins" }}>
+            <button onClick={() => scrollToSection('experience')} style={{ fontFamily: "Poppins" }}>Experience</button>
+          </a>
+        </div>
         <a href="javascript:void(0);" className="icon" onClick={openHeader}>&#9776;</a>
         <a className='text-3xl lg:text-4xl' style={{ fontFamily: "Poppins" }}>
           <button onClick={() => scrollToSection('contact')} style={{ fontFamily: "Poppins" }}>Contact</button>
         </a>
-      </div>*/}
+      </div>
       <div className="container">
         <div id="main" style={{ paddingTop: "10px" }}>
           <Main />
@@ -111,7 +71,9 @@ function App() {
         <div id="contact">
           <Contact />
         </div>
-        <ScrollButton />
+        <div className="scrollToTopButton">
+          <ScrollButton />
+        </div>
         <Footer />
       </div>
     </>
