@@ -55,7 +55,7 @@ function SkillTiles() {
                     <div className="w-full h-28 max-w-md px-8 py-4 mt-16 rounded-lg shadow-lg bg-black">
                         <div className="flex justify-start md:justify-end">
                             <h1 className="mt-6 text-xl font-semibold text-white">Dart</h1>
-                            <img className="object-cover w-20 h-20 border-2 border-blue-500 rounded-full ml-auto" alt="" src="https://www.pngitem.com/pimgs/m/480-4800518_file-dart-logo-dart-programming-language-logo-hd.png" />
+                            <img className="object-cover w-20 h-20 border-2 border-blue-500 rounded-full ml-auto" alt="" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cnet.com%2Fculture%2Fmicrosoft-shoots-down-googles-dart-language%2F&psig=AOvVaw1MqjZpRXURm4wifZh5g2Mf&ust=1709573722833000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwiMxoDF0NiEAxW4ZmwGHdiYCbQQjRx6BAgAEBU" />
                         </div>
                     </div>
                 </motion.div>
@@ -114,7 +114,7 @@ function SkillTiles() {
                 <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.25 }} className="w-72 items-center text-start justify-center" style={{ padding: "10px" }}>
                     <div className="w-full h-28 max-w-md px-8 py-4 mt-16 rounded-lg shadow-lg bg-black">
                         <div className="flex justify-start md:justify-end">
-                            <h1 className="mt-6 text-xl font-semibold text-white">AngularJS</h1>
+                            <h1 className="mt-6 text-xl font-semibold text-white">AngularJS&nbsp;</h1>
                             <img className="object-cover w-20 h-20 border-2 border-blue-500 rounded-full ml-auto" alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png" />
                         </div>
                     </div>

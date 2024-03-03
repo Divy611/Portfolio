@@ -26,7 +26,7 @@ function Contact() {
     };
     return (
         <>
-            <section className="body-font relative">
+            <section className="body-font relative items-center text-center justify-center">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="flex flex-col text-center w-full mb-12">
                         <h1 className="sm:text-2xl lg:text-4xl text-3xl font-medium title-font mb-4 text-white">Contact Me</h1>

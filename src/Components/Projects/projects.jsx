@@ -24,7 +24,7 @@ export default function Projects() {
                                 </div>
                                 <motion.h2 layout="position" className="mt-4 text-xl font-bold text-white " style={{ fontFamily: "poppins" }}>Virtual Assistant</motion.h2>
                                 {expand && (
-                                    <motion.p style={{ fontFamily: "poppins" }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.25 }} exit={{ opacity: 0 }} className="mt-1 text-sm text-gray-300">A virtual assistant like Google assistant, Alexa, Cortana, made with python.
+                                    <motion.p style={{ fontFamily: "poppins" }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }} exit={{ opacity: 0 }} className="mt-1 text-sm text-gray-300">A virtual assistant like Google assistant, Alexa, Cortana, made with python.
                                         It can perform basic tasks like doing a general conversation, open apps, search the browser for info, do
                                         calculations, and many more...
                                     </motion.p>)}
@@ -35,7 +35,7 @@ export default function Projects() {
                                 </div>
                                 <motion.h2 layout="position" className="mt-4 text-xl font-bold text-white " style={{ fontFamily: "poppins" }}>Music Recommendation System</motion.h2>
                                 {expand1 && (
-                                    <motion.p style={{ fontFamily: "poppins" }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.25 }} exit={{ opacity: 0 }} className="mt-1 text-sm text-gray-300">My music recommendation system takes up various music metrics as input and suggests music based
+                                    <motion.p style={{ fontFamily: "poppins" }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }} exit={{ opacity: 0 }} className="mt-1 text-sm text-gray-300">My music recommendation system takes up various music metrics as input and suggests music based
                                         on the metric values given. And with the help of Spotify API, we are also able to directly play those songs
                                         through the user interface itself.</motion.p>)}
                             </motion.div>
@@ -45,7 +45,7 @@ export default function Projects() {
                                 </div>
                                 <motion.h2 layout="position" className="mt-4 text-xl font-bold text-white " style={{ fontFamily: "poppins" }}>Ping-Pong using Hand Gestures</motion.h2>
                                 {expand2 && (
-                                    <motion.p style={{ fontFamily: "poppins" }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.25 }} exit={{ opacity: 0 }} className="mt-1 text-sm text-gray-300">This project is a ping pong game made in python, but instead of using keyboard and mouse, we use our
+                                    <motion.p style={{ fontFamily: "poppins" }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }} exit={{ opacity: 0 }} className="mt-1 text-sm text-gray-300">This project is a ping pong game made in python, but instead of using keyboard and mouse, we use our
                                         hand movements to play the game.
                                     </motion.p>)}
                             </motion.div>

@@ -19,7 +19,7 @@ export default function Experience() {
     });
     return (
         <>
-            <section className="phone flex flex-row justify-between items-center text-start" style={{ paddingInline: "30px", paddingTop: "50px" }}>
+            <section className="phone flex flex-row justify-between items-center text-start experience" style={{ paddingInline: "30px", paddingTop: "50px" }}>
                 <div>
                     <motion.h1 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.45 }} className='text-3xl lg:text-7xl text-white'>Experience</motion.h1>
                 </div>

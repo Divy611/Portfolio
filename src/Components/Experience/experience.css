@@ -59,6 +59,10 @@
 }
 
 @media screen and (max-width: 600px) {
+    .experience {
+        display: none;
+    }
+
     .shorten-text {
         max-height: 10px;
         overflow: hidden;
