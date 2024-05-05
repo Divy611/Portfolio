@@ -69,14 +69,14 @@ function SkillTiles() {
                 </motion.div>
             </div>
             <div className="lg:flex items-center justify-center text-start">
-                <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="w-72 items-center text-start justify-center" style={{ padding: "10px" }}>
+                {/* <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="w-72 items-center text-start justify-center" style={{ padding: "10px" }}>
                     <div className="w-full h-28 max-w-md px-8 py-4 mt-16 rounded-lg shadow-lg bg-black">
                         <div className="flex justify-start md:justify-end">
                             <h1 className="mt-6 text-xl font-semibold text-white">Solidity</h1>
                             <img className="object-cover w-20 h-20 border-2 border-blue-500 rounded-full ml-auto" alt="" src="https://pbs.twimg.com/media/E0KH3AOX0AQPjKa.png" />
                         </div>
                     </div>
-                </motion.div>
+                </motion.div> */}
                 <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.25 }} className="w-72 items-center text-start justify-center" style={{ padding: "10px" }}>
                     <div className="w-full h-28 max-w-md px-8 py-4 mt-16 rounded-lg shadow-lg bg-black">
                         <div className="flex justify-start md:justify-end">

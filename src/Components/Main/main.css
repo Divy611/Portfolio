@@ -127,3 +127,7 @@
     bottom: -35px;
     opacity: 1;
 }
+
+.myImg {
+    border-radius: 3000px;
+}
