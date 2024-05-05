@@ -9,6 +9,7 @@ import Contact from './Components/Contact/contact';
 import Projects from './Components/Projects/projects';
 import Experience from './Components/Experience/experience';
 import ScrollButton from "./Components/ScrolltoTop/scrollToTop";
+import Certifications from "./Components/Certifications/certifications";
 
 function openHeader() {
   var x = document.getElementById("myTopnav");
@@ -42,6 +43,9 @@ function App() {
         <a className='text-3xl lg:text-4xl' style={{ fontFamily: "Poppins" }}>
           <button onClick={() => scrollToSection('projects')} style={{ fontFamily: "Poppins" }}>Projects</button>
         </a>
+        <a className='text-3xl lg:text-4xl' style={{ fontFamily: "Poppins" }}>
+          <button onClick={() => scrollToSection('certifications')} style={{ fontFamily: "Poppins" }}>Certifications</button>
+        </a>
         <div className="experiencebutton">
           <a className='text-3xl lg:text-4xl' style={{ fontFamily: "Poppins" }}>
             <button onClick={() => scrollToSection('experience')} style={{ fontFamily: "Poppins" }}>Experience</button>
@@ -64,6 +68,9 @@ function App() {
         </div>
         <div id="projects">
           <Projects />
+        </div>
+        <div id="certifications">
+          <Certifications />
         </div>
         <div id="experience">
           <Experience />

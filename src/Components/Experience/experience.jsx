@@ -36,8 +36,7 @@ export default function Experience() {
                                     <motion.h2 initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.25 }} className='text-2xl' style={{ fontFamily: "Poppins", fontWeight: "500" }}>Polibuzz</motion.h2>
                                     <motion.h2 initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.45 }} className='text-xl' style={{ fontFamily: "Poppins", fontWeight: "500", paddingRight: "50px" }}>Feb 2023 - Present</motion.h2>
                                 </div>
-                                <motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.45 }} className='short text-l'>I am the co- founder of Polibuzz, which is a social media platform focused on Indian politics, providing a
-                                    centralized nexus for political engagement. I built the Polibuzz android app from scratch, which is available to download on play
+                                <motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.45 }} className='short text-l'>As the Co-Founder and CTO of Polibuzz, I spearheaded the development of a social media platform centered around Indian politics. The Polibuzz android app is currently available to download on the play
                                     store.
                                 </motion.p>
                                 <br /><br />
@@ -57,9 +56,7 @@ export default function Experience() {
                                     <motion.h2 initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.25 }} className='text-2xl' style={{ fontFamily: "Poppins", fontWeight: "500" }}>3 Pillar Global</motion.h2>
                                     <motion.h2 initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.25 }} className='text-xl' style={{ fontFamily: "Poppins", fontWeight: "500", paddingRight: "50px" }}>June 2023 - July 2023</motion.h2>
                                 </div>
-                                <motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.45 }} className='short text-l'>I worked as a data analyst intern at 3 pillar global where I worked on a couple of machine learning
-                                    projects.
-                                </motion.p>
+                                <motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.45 }} className='short text-l'>During my internship at 3Pillar Global, I worked on recommendation projects utilizing machine learning, some of which include a Music Recommendation System with customizable metrics and Spotify integration, and a Movie Recommendation System featuring sentiment analysis for review feedback and similar movie suggestions.</motion.p>
                                 <br /><br />
                             </div>
                             <img className="object-cover w-20 h-20 border-2 border-blue-500 rounded-full ml-auto" alt="" src={Image1} />
@@ -77,9 +74,7 @@ export default function Experience() {
                                     <motion.h2 initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.25 }} className='text-2xl' style={{ fontFamily: "Poppins", fontWeight: "500" }}>Knotters</motion.h2>
                                     <motion.h2 initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.45 }} className='text-xl' style={{ fontFamily: "Poppins", fontWeight: "500", paddingRight: "50px" }}>March, 2023 - April, 2023</motion.h2>
                                 </div>
-                                <motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.45 }} className='short text-l'>I worked as a backend developer intern at knotters and my task was to create APIs for the backend for the knotters
-                                    website.
-                                </motion.p>
+                                <motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.45 }} className='short text-l'>During my internship at Knotters, I contributed to the construction of their platform, and a few of their upcoming projects. It was my first exposure to utilizing tools like Django, MongoDB, Postman API, and Redis in a commercial setting.</motion.p>
                                 <br /><br />
                             </div>
                             <img className="object-cover w-20 h-20 border-2 border-blue-500 rounded-full ml-auto" alt="" src={Image2} />

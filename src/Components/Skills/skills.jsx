@@ -39,7 +39,7 @@ function SkillTiles() {
                     <div className="w-full h-28 max-w-md px-8 py-4 mt-16 rounded-lg shadow-lg bg-black">
                         <div className="flex justify-start md:justify-end">
                             <h1 className="mt-6 text-xl font-semibold text-white">Python</h1>
-                            <img className="object-cover w-20 h-20 border-2 border-blue-500 rounded-full ml-auto" alt="" src="https://images.ctfassets.net/mrop88jh71hl/55rrbZfwMaURHZKAUc5oOW/9e5fe805eb03135b82e962e92169ce6d/python-programming-language.png?w=750&h=750&q=100&fm=png" />
+                            <img className="object-cover w-20 h-20 border-2 border-blue-500 rounded-full ml-auto" alt="" src="https://i0.wp.com/junilearning.com/wp-content/uploads/2020/06/python-programming-language.webp?fit=800%2C800&ssl=1" />
                         </div>
                     </div>
                 </motion.div>
@@ -55,7 +55,7 @@ function SkillTiles() {
                     <div className="w-full h-28 max-w-md px-8 py-4 mt-16 rounded-lg shadow-lg bg-black">
                         <div className="flex justify-start md:justify-end">
                             <h1 className="mt-6 text-xl font-semibold text-white">Dart</h1>
-                            <img className="object-cover w-20 h-20 border-2 border-blue-500 rounded-full ml-auto" alt="" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cnet.com%2Fculture%2Fmicrosoft-shoots-down-googles-dart-language%2F&psig=AOvVaw1MqjZpRXURm4wifZh5g2Mf&ust=1709573722833000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwiMxoDF0NiEAxW4ZmwGHdiYCbQQjRx6BAgAEBU" />
+                            <img className="object-cover w-20 h-20 border-2 border-blue-500 rounded-full ml-auto" alt="" src="https://digitalhumanity.co.za/wp-content/uploads/Dart-colour.png" />
                         </div>
                     </div>
                 </motion.div>
