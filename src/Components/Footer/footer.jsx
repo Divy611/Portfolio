@@ -7,7 +7,6 @@ export default function Footer() {
                 <a href="/">
                     <h1 className='text-white text-xl lg:text-2xl font-semibold' style={{ fontFamily: "Poppins" }}>Divy Parikh</h1>
                 </a>
-                {/* <p className="text-sm text-white">© Copyright 2023. All Rights Reserved.</p> */}
                 <div className="flex -mx-2">
                     <a href="https://www.instagram.com/divy_parikh/" className="mx-2 text-white transition-colors duration-300 hover:text-pink-500" aria-label="Instagram">
                         <svg className="w-5 h-5 fill-current" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">

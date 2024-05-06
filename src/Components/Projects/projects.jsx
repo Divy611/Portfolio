@@ -14,7 +14,6 @@ export default function Projects() {
                     <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-12">
                         <div className="mx-auto max-w-lg text-center text-white">
                             <motion.h1 className="text-3xl font-bold sm:text-4xl text-center headertext" initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true }} style={{ fontFamily: "poppins", fontWeight: "600" }}>My Projects</motion.h1>
-                            {/* <motion.p className="mt-4 text-gray-300 headersubtext text-center" initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.4 }} viewport={{ once: true }} style={{ fontFamily: "poppins", fontWeight: "500" }}>India is the world's largest democracy with 900 million eligible voters. Help us revolutionise the way people connect with their leaders.</motion.p> */}
                         </div>
                         <br />
                         <div className="mt-8 grid gap-8 lg:grid-cols-3 container">

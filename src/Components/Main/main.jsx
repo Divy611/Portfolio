@@ -29,8 +29,8 @@ function Main() {
                     <motion.div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
                         {/* <img
                             class="object-cover object-center rounded myImg" height='450px' width='450px' src={MyImage}
-                            alt='' /> */}
-                        {/* <img className="w-full h-full lg:max-w-3xl" src="" alt="" /> */}
+                            alt='' />
+                            <img className="w-full h-full lg:max-w-3xl" src="" alt="" /> */}
                     </motion.div>
                 </motion.div>
             </motion.div>
