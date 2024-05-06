@@ -1,7 +1,7 @@
 import React from 'react'
 import "../Main/main.css"
 import "../styles/Buttons.css"
-import MyImage from "../assets/Me.jpg"
+// import MyImage from "../assets/Me.jpg"
 import { motion, useScroll, useTransform } from 'framer-motion'
 
 function Main() {
